@@ -11,7 +11,7 @@ import biothings.hub.dataload.dumper
 
 class MvcgiDumper(biothings.hub.dataload.dumper.LastModifiedHTTPDumper):
 
-    SRC_NAME = "mvcgi"
+    SRC_NAME = "mvcgi_advanced"
     SRC_ROOT_FOLDER = os.path.join(DATA_ARCHIVE_ROOT, SRC_NAME)
     SCHEDULE = None
     UNCOMPRESS = True
